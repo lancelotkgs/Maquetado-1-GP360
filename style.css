@@ -1,0 +1,191 @@
+/*
+* 1. Body
+* 2. Header 
+* 3. Slider
+* 4. Primary
+* 5. Secondary
+* 6. Generic Classes
+* 7. Navigation Bar 
+* 8. Footer
+*/
+
+/* 1. Header */
+#header {
+	background-color: #C2D1DB;
+	border-top: 8px solid #33cccc;
+}
+
+.site-branding {
+	background: #FFF;
+	margin: 15px 30px 0 30px;
+	padding: 15px;
+	border-radius: 10px 61px 5px 0px;
+	-moz-border-radius: 10px 61px 5px 0px;
+	-webkit-border-radius: 10px 61px 5px 0px;
+	border: 0px solid #000000;
+}
+
+.site-logo {
+	text-align: left;
+}
+
+.site-description {
+	text-align: right;
+	vertical-align: text-bottom;
+}
+
+.navigation-section {
+	background: #C2D1DB;
+	margin: 0 15px 0 15px;
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border: 0px solid #000000;
+}
+
+/* 3. Slider */
+
+.slider-section {
+	height: 300px; 
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.carousel,
+.item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    border: solid 5px #FFFFFF;
+}
+
+/* 4. Primary */
+.primary-section {
+	padding-top: 5px;
+	background-color: #e2e9e9;
+}
+
+.principal-bulletin-section {
+	background-color: #e2e9e9;
+}
+
+.bulletin-section {
+	background-color: #e2e9e9;
+	padding-top: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.bulletin {
+	color: #FFFFFF;
+	background: #1f777d;
+	background: -moz-linear-gradient(top, #1f777d 0%, #1f777d 44%, #08c4d1 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, #1f777d), color-stop(44%, #1f777d), color-stop(100%, #08c4d1));
+	background: -webkit-linear-gradient(top, #1f777d 0%, #1f777d 44%, #08c4d1 100%);
+	background: -o-linear-gradient(top, #1f777d 0%, #1f777d 44%, #08c4d1 100%);
+	background: -ms-linear-gradient(top, #1f777d 0%, #1f777d 44%, #08c4d1 100%);
+	background: linear-gradient(to bottom, #1f777d 0%, #1f777d 44%, #08c4d1 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f777d', endColorstr='#08c4d1', GradientType=0 );
+}
+
+/* 5. Secondary */
+.secondary {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.individual-case {
+	border: solid 3px #bfbfbf;
+}
+
+.banner-section {
+	margin-right: 4%;
+	margin-left: 4%;
+}
+
+.banner {
+	color: #FFFFFF;
+	background: #1f777d;
+	background: -moz-linear-gradient(top, #1f777d 0%, #1f777d 44%, #08c4d1 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, #1f777d), color-stop(44%, #1f777d), color-stop(100%, #08c4d1));
+	background: -webkit-linear-gradient(top, #1f777d 0%, #1f777d 44%, #08c4d1 100%);
+	background: -o-linear-gradient(top, #1f777d 0%, #1f777d 44%, #08c4d1 100%);
+	background: -ms-linear-gradient(top, #1f777d 0%, #1f777d 44%, #08c4d1 100%);
+	background: linear-gradient(to bottom, #1f777d 0%, #1f777d 44%, #08c4d1 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f777d', endColorstr='#08c4d1', GradientType=0 );
+	float: center;
+}
+
+/* Generic Classes */
+.middle {
+	vertical-align: middle;
+	display: inline-block;
+}
+
+/* 7. Navigation Bar */
+.navbar-default {
+	background:transparent !important;
+}
+
+.navbar-default .navbar-nav > li > a{
+	margin-right: 2.5px;
+	margin-left: 2.5px;
+	border-radius: 0px 0px 15px 15px;
+	background: #499bea;
+	background: -moz-linear-gradient(top, #499bea 0%, #4bbee8 0%, #207ce5 0%, #16467a 0%, #4bbee8 45%, #4bbee8 46%, #4bbee8 48%, #4bbee8 51%, #16467a 99%, #207ce5 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, #499bea), color-stop(0%, #4bbee8), color-stop(0%, #207ce5), color-stop(0%, #16467a), color-stop(45%, #4bbee8), color-stop(46%, #4bbee8), color-stop(48%, #4bbee8), color-stop(51%, #4bbee8), color-stop(99%, #16467a), color-stop(100%, #207ce5));
+	background: -webkit-linear-gradient(top, #499bea 0%, #4bbee8 0%, #207ce5 0%, #16467a 0%, #4bbee8 45%, #4bbee8 46%, #4bbee8 48%, #4bbee8 51%, #16467a 99%, #207ce5 100%);
+	background: -o-linear-gradient(top, #499bea 0%, #4bbee8 0%, #207ce5 0%, #16467a 0%, #4bbee8 45%, #4bbee8 46%, #4bbee8 48%, #4bbee8 51%, #16467a 99%, #207ce5 100%);
+	background: -ms-linear-gradient(top, #499bea 0%, #4bbee8 0%, #207ce5 0%, #16467a 0%, #4bbee8 45%, #4bbee8 46%, #4bbee8 48%, #4bbee8 51%, #16467a 99%, #207ce5 100%);
+	background: linear-gradient(to bottom, #499bea 0%, #4bbee8 0%, #207ce5 0%, #16467a 0%, #4bbee8 45%, #4bbee8 46%, #4bbee8 48%, #4bbee8 51%, #16467a 99%, #207ce5 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#207ce5', GradientType=0 );
+}
+
+.navbar-default .navbar-nav > li > a{
+	color: #FFFFFF !important;
+	font-weight: bold;
+}
+
+.navbar-default .navbar-nav > li:hover {
+	opacity: 0.9;
+}
+
+/* Footer */
+.footer {
+	margin-top: 10px;
+	background: rgba(26,164,219,1);
+	background: -moz-radial-gradient(center, ellipse cover, rgba(26,164,219,1) 0%, rgba(0,114,143,0.92) 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(26,164,219,1)), color-stop(100%, rgba(0,114,143,0.92)));
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(26,164,219,1) 0%, rgba(0,114,143,0.92) 100%);
+	background: -o-radial-gradient(center, ellipse cover, rgba(26,164,219,1) 0%, rgba(0,114,143,0.92) 100%);
+	background: -ms-radial-gradient(center, ellipse cover, rgba(26,164,219,1) 0%, rgba(0,114,143,0.92) 100%);
+	background: radial-gradient(ellipse at center, rgba(26,164,219,1) 0%, rgba(0,114,143,0.92) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1aa4db', endColorstr='#00728f', GradientType=1 );
+}
+
+.footer-left  {
+	color: #FFF;
+	text-align: left;
+	padding-left: 75px;
+}
+
+.footer-right {
+	color: #FFF;
+	text-align: right;
+	padding-right: 75px;
+}
